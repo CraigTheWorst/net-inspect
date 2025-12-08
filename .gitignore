@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# net-inspect specific
+data/baselines/*.json
+data/captures/*.pcap
+data/captures/*.pcapng
+data/logs/*.log
+data/results/*.json
+data/results/*.csv
+*.backup
+*.bak
+
+# CVE cache
+.cache/
+
+# Sensitive files
+*.key
+*.pem
+*.crt
+*_secret*
+credentials*
+*api_key*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentation builds
+docs/_build/
